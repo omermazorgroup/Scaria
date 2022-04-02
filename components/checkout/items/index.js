@@ -14,6 +14,7 @@ const CheckoutItems = () => {
 
             <div className="checkout-item__data">
               <h3>{item.name}</h3>
+              <h4>X{item.count}</h4>
               <span>#{item.id}</span>
             </div>
           </div>

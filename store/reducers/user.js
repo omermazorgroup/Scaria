@@ -10,9 +10,8 @@ const initialState = {
 
 const userReducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'TOGGLE_FAV_PRODUCT':   
+    case 'TOGGLE_FAV_PRODUCT': 
       const index = state.favProducts.includes(action.id);
-
       if(!index) {
         state.favProducts.push(action.id);
 

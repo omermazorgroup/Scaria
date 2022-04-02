@@ -13,7 +13,7 @@ const Content = ({ product }) => {
   const [color, setColor] = useState('');
   const [itemSize, setItemSize] = useState('');
 
-  const onColorSet = (e) => setColor(e);
+  const onColorSet = (e) => {console.log(e); setColor(e)};
   const onSelectChange = (e) => setItemSize(e.target.value);
 
   const { favProducts } = useSelector(state => state.user);

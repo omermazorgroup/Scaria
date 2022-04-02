@@ -5,7 +5,7 @@ const Punctuation = ({ punctuations }) => {
     <section className="product-punctuation">
       <div className="product-punctuation__values">
         <h3>4.5</h3>
-        <Rater total={5} interactive={false} rating={2} />
+        <Rater total={5} interactive={false} rating={4.5} />
         <p><i className="icon-avatar"></i>81 all opinions</p>
       </div>
       

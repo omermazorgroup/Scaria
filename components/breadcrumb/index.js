@@ -1,4 +1,4 @@
-const Breadcrumb = () => (
+const Breadcrumb = (currentPage) => (
   <section className="breadcrumb">
     <div className="container">
       <ul className="breadcrumb-list">
